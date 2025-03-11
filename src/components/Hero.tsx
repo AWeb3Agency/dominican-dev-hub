@@ -31,7 +31,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-20 pb-16 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
       {/* Background Design Elements */}
       <div className="absolute inset-0 -z-10 opacity-30">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 rounded-full bg-primary/10 blur-3xl"></div>
@@ -61,20 +61,10 @@ const Hero = () => {
               <Link to="/developers">Explore Developers</Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="rounded-full px-8">
-              <Link to="/join">Join the Network</Link>
+              <Link to="https://github.com/AWeb3Agency/dominican-dev-hub/issues/new?assignees=&labels=New+Developer&template=join-template.md&title=%5BNew+Developer%5D+Your+Name" target="_blank" rel="noopener noreferrer">
+                Join the Network
+              </Link>
             </Button>
-          </div>
-        </div>
-        
-        <div className="mt-16 md:mt-24 relative">
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-background z-10"></div>
-          <div className="relative z-0 rounded-2xl overflow-hidden border shadow-xl glassmorphism">
-            <img 
-              src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=2942&auto=format&fit=crop" 
-              alt="Dominican developers collaborating" 
-              className="w-full h-auto object-cover"
-              loading="lazy"
-            />
           </div>
         </div>
       </div>

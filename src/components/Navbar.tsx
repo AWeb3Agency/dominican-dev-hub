@@ -40,7 +40,7 @@ const Navbar = () => {
           className="flex items-center space-x-2 text-xl font-semibold"
         >
           <Code className="w-6 h-6 text-primary" />
-          <span className="animate-blur-in">DominicanDev</span>
+          <span className="animate-blur-in">Dominican<span className="text-primary">Web3</span>Dev</span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -59,7 +59,9 @@ const Navbar = () => {
             </Link>
           ))}
           <Button asChild size="sm" className="rounded-full px-4 shadow-md">
-            <Link to="/join">Join Network</Link>
+            <Link to="https://github.com/AWeb3Agency/dominican-dev-hub/issues/new?assignees=&labels=New+Developer&template=join-template.md&title=%5BNew+Developer%5D+Your+Name" target="_blank" rel="noopener noreferrer">
+              Join the Network
+            </Link>
           </Button>
         </nav>
 
@@ -99,7 +101,9 @@ const Navbar = () => {
               size="sm"
               className="rounded-full w-full mt-4 shadow-sm"
             >
-              <Link to="/join">Join Network</Link>
+              <Link to="https://github.com/AWeb3Agency/dominican-dev-hub/issues/new?assignees=&labels=New+Developer&template=join-template.md&title=%5BNew+Developer%5D+Your+Name" target="_blank" rel="noopener noreferrer">
+                Join the Network
+              </Link>
             </Button>
           </div>
         </div>

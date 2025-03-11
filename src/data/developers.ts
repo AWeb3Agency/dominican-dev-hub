@@ -34,147 +34,90 @@ export interface Developer {
 export const developers: Developer[] = [
   {
     id: "1",
-    name: "Carlos Mejía",
-    title: "Senior Blockchain Developer",
-    bio: "Passionate Web3 developer with extensive experience in smart contract development and blockchain architecture. I love building decentralized applications that empower users.",
-    image: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=2070&auto=format&fit=crop",
+    name: "Enzo Vezzaro",
+    title: "Senior Web3 Developer",
+    bio: "I am a dynamic and innovative developer, merging creativity with technical expertise to craft unique and impactful digital solutions.",
+    image: "https://www.enzovezzaro.com/img/family-photo.jpg?q=80&w=2070&auto=format&fit=crop",
     location: "Santo Domingo, Dominican Republic",
-    github: "https://github.com/carlosmejia",
-    twitter: "https://twitter.com/carlosmejia",
-    linkedin: "https://linkedin.com/in/carlosmejia",
-    website: "https://carlosmejia.dev",
-    email: "contact@carlosmejia.dev",
+    github: "https://github.com/EnzoVezzaro",
+    twitter: "https://x.com/enzo_vezzaro",
+    linkedin: "https://www.linkedin.com/in/enzo-vezzaro/",
+    website: "https://www.enzovezzaro.com/",
+    email: "enzo-vezzaro@live.it",
     skills: ["Solidity", "Ethereum", "React", "TypeScript", "Hardhat", "IPFS", "Web3.js", "Node.js"],
     experience: [
       {
-        company: "DeFi Protocol",
-        position: "Lead Blockchain Developer",
-        duration: "2021 - Present",
-        description: "Architecting and developing smart contracts for a decentralized finance protocol with over $10M in TVL."
+        company: "Eleva SRL",
+        position: "Full Stack Engineer",
+        duration: "2024 - 2025",
+        description: "Led front-end and back-end development, focusing on optimizing user experience and delivering secure, scalable applications."
       },
       {
-        company: "NFT Marketplace",
-        position: "Smart Contract Engineer",
+        company: "Ocean Protocol",
+        position: "Web3 Full Stack Engineer",
+        duration: "2023 - 2024",
+        description: "Building decentralized applications (DApps) and working with blockchain technologies to enhance data sharing and connectivity across industries."
+      },
+      {
+        company: "Expert.ai",
+        position: "Full Stack Engineer",
+        duration: "2021 - 2023",
+        description: "Developed cutting-edge AI solutions integrating advanced NLP technologies into scalable web applications."
+      },
+      {
+        company: "Eleva SRL",
+        position: "Full Stack Engineer",
         duration: "2019 - 2021",
-        description: "Developed and audited smart contracts for NFT minting and marketplace functionality."
+        description: "Led front-end and back-end development, focusing on optimizing user experience and delivering secure, scalable applications."
       }
     ],
     projects: [
       {
-        id: "101",
-        name: "DeFi Lending Platform",
-        description: "A decentralized lending protocol built on Ethereum that allows users to lend and borrow digital assets.",
-        technologies: ["Solidity", "Ethereum", "React", "Web3.js"],
-        url: "https://defi-lending.example.com",
-        github: "https://github.com/carlosmejia/defi-lending",
-        image: "https://images.unsplash.com/photo-1639762681057-408e52192e55?q=80&w=2232&auto=format&fit=crop"
+        id: "enz-1",
+        name: "DomBets",
+        description: "Web3 sport betting platform designed for the Dominican market and beyond.",
+        technologies: ["React", "Node.js", "Vercel", "PrimaDB", "JavaScript", "Ethers.js", "MagicLink", "Infura", "Polygon", "IPFS"],
+        url: "https://dom-bets.vercel.app",
+        github: "private",
+        image: "http://localhost:3000/_next/image?url=%2Fimg%2Fportfolio-mock_single_dombets.png&w=1920&q=75"
       },
       {
-        id: "102",
-        name: "NFT Marketplace",
-        description: "A marketplace for trading digital collectibles on the blockchain with integrated wallet support.",
-        technologies: ["Solidity", "IPFS", "NextJS", "Ethers.js"],
-        url: "https://nft-market.example.com",
-        github: "https://github.com/carlosmejia/nft-marketplace",
-        image: "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=2074&auto=format&fit=crop"
-      }
-    ]
-  },
-  {
-    id: "2",
-    name: "Maria Rodriguez",
-    title: "Full Stack Blockchain Developer",
-    bio: "Building the future of Web3 with a focus on user experience and performance. Specialized in creating seamless bridges between traditional web and blockchain technologies.",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop",
-    location: "Santiago, Dominican Republic",
-    github: "https://github.com/mariarodriguez",
-    twitter: "https://twitter.com/mariarodriguez",
-    linkedin: "https://linkedin.com/in/mariarodriguez",
-    website: "https://mariarodriguez.dev",
-    email: "hello@mariarodriguez.dev",
-    skills: ["Solidity", "React", "GraphQL", "The Graph", "Next.js", "Tailwind CSS", "Ethers.js", "Solana"],
-    experience: [
-      {
-        company: "Web3 Startup",
-        position: "Senior Full Stack Developer",
-        duration: "2020 - Present",
-        description: "Leading development of a cross-chain bridge and accompanying frontend applications."
+        id: "enz-2",
+        name: "Social Generator",
+        description: "A tool designed to automate and optimize content creation for social media platforms, helping users generate engaging posts quickly and efficiently.",
+        technologies: ["React", "AI Horde API"],
+        url: "https://socialgen-creator.vercel.app/",
+        github: "private",
+        image: "http://localhost:3000/_next/image?url=%2Fimg%2Fportfolio-mock_single_social_gen.png&w=1920&q=75"
       },
       {
-        company: "Technology Consulting Firm",
-        position: "Blockchain Consultant",
-        duration: "2018 - 2020",
-        description: "Advised enterprises on blockchain integration strategies and implementation."
-      }
-    ],
-    projects: [
-      {
-        id: "201",
-        name: "Cross-Chain Bridge",
-        description: "A solution for transferring assets between different blockchain networks with minimal fees.",
-        technologies: ["Solidity", "Solana", "React", "The Graph"],
-        url: "https://bridge.example.com",
-        github: "https://github.com/mariarodriguez/cross-chain-bridge",
-        image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=2232&auto=format&fit=crop"
+        id: "enz-3",
+        name: "Chispa AI",
+        description: "An innovative AI platform designed exclusively for the Dominican Republic, focused on personalized services and digital transformation.",
+        technologies: ["Next.js", "Node.js", "Vercel", "API", "OpenAI"],
+        url: "https://chispa-ai.vercel.app/",
+        github: "private",
+        image: "https://digitalrd.citizenlab.co/uploads/d8f0f30c-439c-49b0-9f82-32bef8a0d6ae/idea_image/image/84bf90bf-b4da-4d08-ae0c-6d60270b100c/large_041e853a-8965-4183-9aab-87b4dfbda02d.png?q=80&w=2232&auto=format&fit=crop"
       },
       {
-        id: "202",
-        name: "DAO Governance Tool",
-        description: "A framework for decentralized governance that enables transparent voting and proposal management.",
-        technologies: ["Solidity", "Next.js", "TypeScript", "Web3.js"],
-        url: "https://dao-tools.example.com",
-        github: "https://github.com/mariarodriguez/dao-tools",
-        image: "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?q=80&w=2070&auto=format&fit=crop"
-      }
-    ]
-  },
-  {
-    id: "3",
-    name: "Luis Perez",
-    title: "Smart Contract Specialist",
-    bio: "Focused on building secure and efficient smart contracts for decentralized applications. Gas optimization enthusiast and security advocate.",
-    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1974&auto=format&fit=crop",
-    location: "Punta Cana, Dominican Republic",
-    github: "https://github.com/luisperez",
-    twitter: "https://twitter.com/luisperez",
-    linkedin: "https://linkedin.com/in/luisperez",
-    website: "https://luisperez.dev",
-    email: "luis@smartcontract.dev",
-    skills: ["Solidity", "Security Auditing", "Rust", "Ethereum", "Hardhat", "Truffle", "Foundry", "ZK Proofs"],
-    experience: [
-      {
-        company: "Security Audit Firm",
-        position: "Smart Contract Auditor",
-        duration: "2022 - Present",
-        description: "Conducting security audits for high-value DeFi protocols and NFT projects."
+        id: "enz-4",
+        name: "Aletheia Data",
+        description: "An open-source initiative aimed at providing easy access to public information through a streamlined platform.",
+        technologies: ["Next.js", "Netlify", "AWS", "MongoDB", "JavaScript", "Ethers.js", "MagicLink", "Infura", "Polygon", "IPFS"],
+        url: "https://aletheia-data.gitbook.io/aletheia",
+        github: "https://github.com/Aletheia-Data",
+        image: "https://pbs.twimg.com/media/Fc8zCaKX0AEVRJD.jpg"
       },
       {
-        company: "Blockchain Development Agency",
-        position: "Solidity Developer",
-        duration: "2019 - 2022",
-        description: "Developed smart contracts for various clients including DeFi platforms and DAOs."
+        id: "enz-5",
+        name: "Aletheia SDK",
+        description: "A free and open-source SDK solution designed to simplify the integration of key services and open data available online.",
+        technologies: ["JavaScript", "Vercel", "JSDocs", "API", "Node.js"],
+        url: "https://aletheia-sdk.netlify.app/",
+        github: "https://github.com/enzovezzaro/aletheia-sdk",
+        image: "https://pbs.twimg.com/media/GACw61RWQAAQ2kK.jpg"
       }
-    ],
-    projects: [
-      {
-        id: "301",
-        name: "Secure Vault",
-        description: "A multi-signature wallet with advanced security features for managing digital assets.",
-        technologies: ["Solidity", "Hardhat", "Ethers.js", "React"],
-        url: "https://securevault.example.com",
-        github: "https://github.com/luisperez/secure-vault",
-        image: "https://images.unsplash.com/photo-1642403711604-3908e90960ce?q=80&w=1936&auto=format&fit=crop"
-      },
-      {
-        id: "302",
-        name: "Gas Optimizer",
-        description: "A toolkit for optimizing smart contract gas usage with automated suggestions.",
-        technologies: ["Solidity", "TypeScript", "Hardhat"],
-        url: "https://gas-optimizer.example.com",
-        github: "https://github.com/luisperez/gas-optimizer",
-        image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=2232&auto=format&fit=crop"
-      }
-    ]
+    ]    
   }
 ];
 

@@ -110,7 +110,9 @@ const Index = () => {
               Are you a Web3 developer from the Dominican Republic? Join our growing community and showcase your projects and skills to potential clients and collaborators.
             </p>
             <Button asChild size="lg" className="rounded-full px-8 shadow-md">
-              <Link to="/join">Join Now</Link>
+              <Link to="https://github.com/AWeb3Agency/dominican-dev-hub/issues/new?assignees=&labels=New+Developer&template=join-template.md&title=%5BNew+Developer%5D+Your+Name" target="_blank" rel="noopener noreferrer">
+                Join the Network
+              </Link>
             </Button>
           </div>
         </div>
@@ -121,7 +123,7 @@ const Index = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
               <h3 className="text-lg font-semibold flex items-center">
-                DominicanDev<span className="text-primary">Web3</span>
+                Dominican<span className="text-primary">Web3</span>Dev
               </h3>
               <p className="text-sm text-muted-foreground mt-1">
                 Connecting Dominican talent in the blockchain space
@@ -133,7 +135,7 @@ const Index = () => {
                 <h4 className="font-medium mb-2">Network</h4>
                 <ul className="space-y-2 text-muted-foreground">
                   <li><Link to="/developers" className="hover:text-primary transition-colors">Developers</Link></li>
-                  <li><Link to="/join" className="hover:text-primary transition-colors">Join Us</Link></li>
+                  <li><Link to="https://github.com/AWeb3Agency/dominican-dev-hub/issues/new?assignees=&labels=New+Developer&template=join-template.md&title=%5BNew+Developer%5D+Your+Name" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Join Us</Link></li>
                 </ul>
               </div>
               
@@ -144,19 +146,11 @@ const Index = () => {
                   <li><a href="#" className="hover:text-primary transition-colors">Tutorials</a></li>
                 </ul>
               </div>
-              
-              <div>
-                <h4 className="font-medium mb-2">Company</h4>
-                <ul className="space-y-2 text-muted-foreground">
-                  <li><a href="#" className="hover:text-primary transition-colors">About</a></li>
-                  <li><a href="#" className="hover:text-primary transition-colors">Contact</a></li>
-                </ul>
-              </div>
             </div>
           </div>
           
           <div className="mt-10 pt-6 border-t text-center text-sm text-muted-foreground">
-            <p>© {new Date().getFullYear()} DominicanDevWeb3. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} DominicanWeb3Dev. Made with ❤️👨🏽‍💻.</p>
           </div>
         </div>
       </footer>

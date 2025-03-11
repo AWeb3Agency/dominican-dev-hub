@@ -64,7 +64,7 @@ const ProjectCard = ({ project, developerName, developerImage, developerLink }: 
         
         <div className="flex items-center justify-between pt-2">
           <div className="flex space-x-2">
-            {project.github && (
+            {project.github && project.github !== "private" && (
               <Button asChild variant="ghost" size="icon" className="rounded-full w-8 h-8">
                 <a href={project.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository">
                   <Github className="w-4 h-4" />
