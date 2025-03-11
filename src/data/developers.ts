@@ -79,7 +79,7 @@ export const developers: Developer[] = [
         technologies: ["React", "Node.js", "Vercel", "PrimaDB", "JavaScript", "Ethers.js", "MagicLink", "Infura", "Polygon", "IPFS"],
         url: "https://dom-bets.vercel.app",
         github: "private",
-        image: "http://localhost:3000/_next/image?url=%2Fimg%2Fportfolio-mock_single_dombets.png&w=1920&q=75"
+        image: "https://www.enzovezzaro.com/_next/image?url=%2Fimg%2Fportfolio-mock_single_dombets.png&w=1920&q=75"
       },
       {
         id: "enz-2",
@@ -88,7 +88,7 @@ export const developers: Developer[] = [
         technologies: ["React", "AI Horde API"],
         url: "https://socialgen-creator.vercel.app/",
         github: "private",
-        image: "http://localhost:3000/_next/image?url=%2Fimg%2Fportfolio-mock_single_social_gen.png&w=1920&q=75"
+        image: "https://www.enzovezzaro.com/_next/image?url=%2Fimg%2Fportfolio-mock_single_social_gen.png&w=1920&q=75"
       },
       {
         id: "enz-3",
