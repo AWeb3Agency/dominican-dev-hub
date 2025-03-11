@@ -36,7 +36,7 @@ Welcome to the **Dominican Web3 Dev Hub** repository! This project aims to showc
      "name": "Your Name",
      "bio": "Short description about you.",
      "website": "https://yourwebsite.com",
-     "github": "https://github.com/yourgithub",
+     "github": "private" or "https://github.com/yourgithub",
      "linkedin": "https://linkedin.com/in/yourlinkedin",
      "twitter": "https://twitter.com/yourtwitter",
      "technologies": ["Tech1", "Tech2", "Tech3"],
