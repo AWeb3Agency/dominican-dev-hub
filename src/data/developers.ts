@@ -37,7 +37,7 @@ export const developers: Developer[] = [
     name: "Enzo Vezzaro",
     title: "Senior Web3 Developer",
     bio: "I am a dynamic and innovative developer, merging creativity with technical expertise to craft unique and impactful digital solutions.",
-    image: "https://www.enzovezzaro.com/img/family-photo.jpg?q=80&w=2070&auto=format&fit=crop",
+    image: "http://mir-s3-cdn-cf.behance.net/projects/404/f03af328315765.55b97ac3d7feb.png",
     location: "Santo Domingo, Dominican Republic",
     github: "https://github.com/EnzoVezzaro",
     twitter: "https://x.com/enzo_vezzaro",
